@@ -48,7 +48,7 @@ function render(){
         </div>
         <div>
         <button class="btn btn-info m-3" onclick="changeStatus(${i})">Change Status</button>
-        <button class="btn btn-danger">Delete</button>
+        <button class="btn btn-danger" onclick="deleteBook(${i})">Delete</button>
         </div>
 
      </div>
@@ -81,4 +81,11 @@ function changeStatus(index) {
           render()
      }
 
+}
+
+
+function deleteBook(index){
+  myLibrary.splice(index, 1)
+  localStorage['book-library-data'] = JSON.stringify(myLibrary)
+  render()
 }
