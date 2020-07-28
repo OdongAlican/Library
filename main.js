@@ -45,6 +45,7 @@ function clearInput() {
   document.getElementById('book-title').value = ' ';
   document.getElementById('book-author').value = ' ';
   document.getElementById('book-pages').value = ' ';
+  document.getElementById('book-modal').classList.toggle('book-div');
 }
 
 function addBookToLibrary() {
