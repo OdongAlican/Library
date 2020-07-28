@@ -11,7 +11,7 @@ A simple book library app created with javascript
 
 ## live demo
 
-[live link](https://raw.githack.com/evansinho/Library/library/index.html)
+[live link](https://competent-banach-24cf62.netlify.app/)
 
 ![Create Book](images/library_project.png)
 
