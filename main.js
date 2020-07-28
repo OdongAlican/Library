@@ -34,12 +34,17 @@ function render() {
         <button class="btn btn-info m-3" onclick="changeStatus(${i})">Change Status</button>
         <button class="btn btn-danger" onclick="deleteBook(${i})">Delete</button>
         </div>
-
      </div>
         `;
   }
 
   document.getElementById('book-list').innerHTML = output;
+}
+
+function clearInput() {
+  document.getElementById('book-title').value = ' ';
+  document.getElementById('book-author').value = ' ';
+  document.getElementById('book-pages').value = ' ';
 }
 
 function addBookToLibrary() {
@@ -55,9 +60,12 @@ function addBookToLibrary() {
   saveData(myLibrary);
 
   render();
+
+  clearInput();
 }
 
 document.getElementById('add-book').addEventListener('click', addBookToLibrary);
+
 const modal = document.getElementById('book-modal');
 function displayModal() {
   modal.classList.toggle('book-div');
