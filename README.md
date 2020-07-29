@@ -6,7 +6,7 @@ A simple book library app created with javascript
 
 - HTML,
 - CSS,
-- JavaScript
+- JavaScript,
 - Bootstrap
 
 ## live demo
