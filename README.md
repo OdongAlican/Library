@@ -11,7 +11,7 @@ A simple book library app created with javascript
 
 ## live demo
 
-[live link](https://frosty-torvalds-dc8fe5.netlify.app/)
+[live link](https://raw.githack.com/OdongAlican/Library/feature-node-modules/index.html)
 
 ![Create Book](images/library_project.png)
 
